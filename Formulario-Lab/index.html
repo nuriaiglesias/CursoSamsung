@@ -1,0 +1,42 @@
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+	<div class="cont">
+		<h1>Create Account</h1>
+		<form name="form" id="form">
+			<div>
+				<label for="username">Nombre</label><br>
+				<input type="text" id="username" name="username" autocomplete="off"><br>
+				<span class="message-hidden" id="username-error"></span>
+			</div>
+			<div>
+				<label for="email">Email</label><br>
+				<input type="text" id="email" name="email" autocomplete="off"><br>
+				<span class="message-hidden" id="email-error"></span>
+			</div>
+			<div>
+				<label for="password">Clave</label><br>
+				<input type="password" id="password" name="password" autocomplete="off"><br>
+				<span class="message-hidden" id="password-error"></span>
+			</div>
+			<div>
+				<label for="password1">Confirme su clave</label><br>
+				<input type="password" id="password1" name="password1" autocomplete="off"><br>
+				<span class="message-hidden" id="password1-error"></span>
+			</div>
+			<input type="submit" id="check" value="Enviar">
+		</form>
+	</div>
+	<script src="index.js"></script>
+
+</body>
+
+</html>
