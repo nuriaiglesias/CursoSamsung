@@ -1,0 +1,42 @@
+<supermercados>
+    <supermercado>
+        <nombre>Supermercado A</nombre>
+        <direccion>Calle 1, Nº 123</direccion>
+        <geolocalizacion>
+            <latitud>40.4168</latitud>
+            <longitud>-3.7038</longitud>
+        </geolocalizacion>
+        <productos>
+            <producto>
+                <nombre>Leche</nombre>
+                <oferta>true</oferta>
+                <periodo_vigencia>del 1 al 15 de cada mes</periodo_vigencia>
+                <habitual>true</habitual>
+                <unidades>1</unidades>
+                <unidad_medida>litro</unidad_medida>
+                <precio>0</precio>
+                <adquirido>false</adquirido>
+            </producto>
+            <producto>
+                <nombre>Pan de molde integral</nombre>
+                <oferta>false</oferta>
+                <periodo_vigencia></periodo_vigencia>
+                <habitual>true</habitual>
+                <unidades>1</unidades>
+                <unidad_medida>unidad</unidad_medida>
+                <precio>1.5</precio>
+                <adquirido>true</adquirido>
+            </producto>
+            <producto>
+                <nombre>Huevos</nombre>
+                <oferta>true</oferta>
+                <periodo_vigencia>del 10 al 20 de cada mes</periodo_vigencia>
+                <habitual>true</habitual>
+                <unidades>6</unidades>
+                <unidad_medida>unidades</unidad_medida>
+                <precio>1.2</precio>
+                <adquirido>false</adquirido>
+            </producto>
+        </productos>
+    </supermercado>
+</supermercados>

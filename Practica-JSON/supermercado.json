@@ -1,0 +1,62 @@
+{
+    "supermercados": [
+        {
+            "nombre": "Supermercado A",
+            "direccion": "Calle 1, Nº 123",
+            "geolocalizacion": {
+                "latitud": 40.4168,
+                "longitud": -3.7038
+            },
+            "productos": [
+                {
+                    "nombre": "Leche",
+                    "oferta": true,
+                    "periodo_vigencia": "del 1 al 15 de cada mes",
+                    "habitual": true,
+                    "unidades": 1,
+                    "unidad_medida": "litro",
+                    "precio": 0.85,
+                    "adquirido": false
+                },
+                {
+                    "nombre": "Pan de molde",
+                    "oferta": false,
+                    "habitual": true,
+                    "unidades": 1,
+                    "unidad_medida": "paquete",
+                    "precio": 1.20,
+                    "adquirido": true
+                }
+            ]
+        },
+        {
+            "nombre": "Supermercado B",
+            "direccion": "Calle 2, Nº 456",
+            "geolocalizacion": {
+                "latitud": 40.4169,
+                "longitud": -3.7040
+            },
+            "productos": [
+                {
+                    "nombre": "Manzanas",
+                    "oferta": true,
+                    "periodo_vigencia": "todos los viernes",
+                    "habitual": false,
+                    "unidades": 1,
+                    "unidad_medida": "kg",
+                    "precio": 0.99,
+                    "adquirido": false
+                },
+                {
+                    "nombre": "Carne picada",
+                    "oferta": false,
+                    "habitual": true,
+                    "unidades": 1,
+                    "unidad_medida": "kg",
+                    "precio": 7.50,
+                    "adquirido": false
+                }
+            ]
+        }
+    ]
+}
